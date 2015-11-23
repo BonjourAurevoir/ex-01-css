@@ -1,8 +1,7 @@
-a[href*="//"]:not([href*="#"]) {
+a[href*="#"]:after {
+  color:#0000FF
+}
+a[href*="https"]:after {
   color:#0000FF
   font-style:bold;
-  font-size:16px;
-}
-a[href*="#"]:not([href*="//"]) {
-  color:#0000FF
 }
