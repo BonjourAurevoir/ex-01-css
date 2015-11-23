@@ -1,14 +1,15 @@
-a[href*="#"]::before {
+a[href*="#par1"]:before {
   color:#0000FF
 }
-a[href*="https"]::before {
+a[href*="https://www.google.com"]::before {
   color:#0000FF
   font-style:bold;
+  font-size: 25px;
 }
-a[href ^= "http"]:after {
+a[href ^= "http"]:before {
      color:#0000FF
      font-style:bold;
 }
-a [href ^="#par1"]:after {
+a [href ^="#par1"]:before {
   color:#0000FF
 }
